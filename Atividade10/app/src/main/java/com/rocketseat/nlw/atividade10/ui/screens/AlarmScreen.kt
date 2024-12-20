@@ -39,6 +39,9 @@ import androidx.compose.runtime.*
 fun AlarmScreen() {
     val context = LocalContext.current
     var permissionGranted by remember { mutableStateOf(false) }
+    var hour by remember { mutableStateOf(0) }
+    var minute by remember { mutableStateOf(0) }
+    var showTimePicker by remember { mutableStateOf(false) }
 
     // Gerenciador de permissões
     val launcher = rememberLauncherForActivityResult(
@@ -60,16 +63,6 @@ fun AlarmScreen() {
             permissionGranted = true // Permissão não necessária em versões anteriores
         }
     }
-
-    // Interface do Alarme (igual à anterior)
-    AlarmContent(permissionGranted, context)
-}
-
-@Composable
-fun AlarmContent(permissionGranted: Boolean, context: Context) {
-    var hour by remember { mutableStateOf(0) }
-    var minute by remember { mutableStateOf(0) }
-    var showTimePicker by remember { mutableStateOf(false) }
 
     Column(
         modifier = Modifier
