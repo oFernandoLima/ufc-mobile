@@ -1,4 +1,4 @@
-package com.example.atividade11.ui.components
+package com.example.atividade11.utils
 
 import android.content.Context
 import androidx.datastore.preferences.core.booleanPreferencesKey

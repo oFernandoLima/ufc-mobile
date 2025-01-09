@@ -34,7 +34,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import com.example.atividade11.ui.components.AddTaskSection
-import com.example.atividade11.ui.components.Task
+import com.example.atividade11.models.Task
 import com.example.atividade11.ui.components.TaskItem
 import com.example.atividade11.viewmodel.TasksViewModel
 import kotlinx.coroutines.launch

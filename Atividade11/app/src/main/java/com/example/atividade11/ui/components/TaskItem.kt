@@ -17,6 +17,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.unit.dp
+import com.example.atividade11.models.Task
+import com.example.atividade11.models.TaskPriority
 
 @Composable
 fun TaskItem(task: Task, onToggleCompletion: () -> Unit, onDelete: () -> Unit) {

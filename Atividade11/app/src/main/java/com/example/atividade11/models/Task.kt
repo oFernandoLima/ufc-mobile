@@ -1,4 +1,4 @@
-package com.example.atividade11.ui.components
+package com.example.atividade11.models
 
 enum class TaskPriority { BAIXA, MEDIA, ALTA }
 enum class TaskCategory { TRABALHO, CASA, ESTUDOS }

@@ -3,10 +3,10 @@ package com.example.atividade11.viewmodel
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.atividade11.ui.components.DataStoreUtils
-import com.example.atividade11.ui.components.Task
-import com.example.atividade11.ui.components.TaskCategory
-import com.example.atividade11.ui.components.TaskPriority
+import com.example.atividade11.utils.DataStoreUtils
+import com.example.atividade11.models.Task
+import com.example.atividade11.models.TaskCategory
+import com.example.atividade11.models.TaskPriority
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
