@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "961219858938",
+    "project_id": "auth-c63bc",
+    "storage_bucket": "auth-c63bc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961219858938:android:8fac7237f91d31edc05443",
+        "android_client_info": {
+          "package_name": "br.ufc.trabalhopratico05"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3tdprPUz1yWnURTOD4WBbaKCqnGjJEFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
